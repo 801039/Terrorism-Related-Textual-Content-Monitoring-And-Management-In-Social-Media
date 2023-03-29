@@ -1,0 +1,42 @@
+.chat{
+    display: flex;
+    flex-direction: column;
+    flex: 0.65;
+    justify-content: space-between;
+}
+
+.chat__header{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+
+.chat__headerInfo{
+    flex: 1;
+    padding-left: 20px;
+}
+
+.chat__headerInfo > h3{
+    margin-bottom: 3px;
+    font-weight: 500;
+}
+
+.chat__headerRight{
+    flex-direction: column;
+}
+
+.chat__body{
+    flex: 1;
+    background-repeat: repeat;
+    background-position: center;
+    padding: 30px;
+    overflow: scroll;
+}
+
+.chat__message{
+    position: relative;
+    justify-content: space-between;
+    display:flex;
+}
+
