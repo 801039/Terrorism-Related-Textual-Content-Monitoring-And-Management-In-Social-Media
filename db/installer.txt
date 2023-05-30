@@ -9,3 +9,11 @@
   "scripts": {
     "start": "nodemon app.js"
   },
+  
+  .env
+  # Creating public variables in this route and use them in any where in the appliction
+API_URL = /api/v1
+
+# CONNECTION_STRING=mongodb+srv://Tharindu:801039@cluster0.rnji9de.mongodb.net/eshop-database?retryWrites=true&w=majority
+
+CONNECTION_STRING=mongodb+srv://Tharindu:801039@cluster0.rnji9de.mongodb.net/eshop-database?retryWrites=true&w=majority
